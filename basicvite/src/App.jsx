@@ -26,7 +26,7 @@ function App() {
 
   return (
     <div>
-      <h1>React Course</h1>
+      <h1 className="text-3xl bg-green-500 p-3 rounded-md">React Course</h1>
       <h2>Counter value: {count}</h2>
       <button onClick={addValue}>Add Value</button>
       <button onClick={removeValue}>Remove Value</button>
